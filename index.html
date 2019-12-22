@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+	<div class="container-fluid text-center">    
+  		<div class="row content">
+  			<div class="col-xs-6 col-md-4">
+  				<h2 style="text-align:center">Electronics</h2>
+  				<div class="card">
+  					<a href="#"><img src="img/macbook.png" alt="electronics" style="width:100%"></a>
+  					<h1>laptop</h1>
+  					<p class="price">$19.99</p>
+  					<p>Some text</p>
+  					<p><a href="buynow.html"><button>Add to Cart</button></a></p>
+				</div>
+			</div>
+  			<div class="col-xs-6 col-md-4">
+  				<h2 style="text-align:center">Sports</h2>
+  				<div class="card">
+  					<a href="#"><img src="img/shoes.jpeg" alt="sports" style="width:100%"></a>
+  					<h1>shoes</h1>
+  					<p class="price">$19.99</p>
+  					<p>Some text</p>
+  					<p><a href="buynow.html"><button>Add to Cart</button></a></p>
+				</div>
+			</div>
+  			<div class="col-xs-6 col-md-4">
+  				<h2 style="text-align:center">Clothes</h2>
+  				<div class="card">
+  					<a href="#"><img src="img/baby.jpg" alt="clothes" style="width:71%"></a>
+  					<h1>costumes</h1>
+  					<p class="price">$19.99</p>
+  					<p>Some text</p>
+  					<p><a href="buynow.html"><button>Add to Cart</button></a></p>
+				</div>
+			</div>							
+  		</div>
+	</div>
+</body>
+</html>
